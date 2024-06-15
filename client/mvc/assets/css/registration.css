@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E3E6F3;
+}
+
+.register {
+    width: 400px;
+    height: 450px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+    border-radius: 20px;
+}
+.register h1 {
+    text-align: center;
+    color: #4c2b99;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+.input-box {
+    margin-bottom: 7px;
+    padding-left: 30px;
+}
+.input-box input{
+    width: 310px;
+    height: 50px;
+    border:1px solid #dee0e4 ;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+.input-box {
+    margin-bottom: 7px;
+    padding-left: 30px;
+}
+
+.policy {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.policy input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.register .text a {
+    color: #4c2b99;
+    margin-left: 5px;
+}
+.register .text{
+    font-size: 13px;
+    color: #000;
+    margin-left: 60px;
+    text-decoration: none
+}
+
+.register form input[type="submit"]{
+    width: 50%;
+    padding: 15px;
+    background-color: #E3E6F3;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+    border: 1px solid #dee0e4;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+.register form input[type="submit"]:hover{
+    background-color: #bac2e6;
+    transition: background-color 0.2s;
+}
+.bt{
+    margin-bottom: 7px;
+    padding-left: 128px;
+}

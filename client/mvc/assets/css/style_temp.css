@@ -1,0 +1,138 @@
+/* Container */
+.container {
+    width: 80%;
+    display: flex;
+    /* justify-content: center; */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+h4{
+    color: grey;
+}
+.left-content-avatar{
+    margin-top: 20px;
+    padding-left: 20%;
+    margin-right: 90px;
+
+}
+.container form input[type="submit"] 
+{
+    background-color: #088178;
+    cursor: pointer;
+    color: white;
+    font-weight: 400px;
+    font-size: 15px;
+    border: 1px solid #dee0e4;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px 12px;
+    transition: background-color 0.2s;
+    margin-left: 40px;
+}
+
+
+/* Left content */
+.container .left-content {
+    margin-top: 30px;
+    flex: 1;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  
+    /* align-items: top; */
+}
+
+.container .left-content img {
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+}
+
+.container .left-content form input {
+    margin: 3px auto;
+}
+
+/* Right content */
+.container .right-content {
+    flex: 1;
+    padding: 30px 10px 30px; 
+    max-width: 80%; 
+    justify-content: center;
+}
+
+.container .right-content div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+
+.container .right-content div label {
+    width: 100px; 
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: grey;
+}
+
+.container .right-content div .icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+    max-width: 100%;
+}
+
+.container .right-content div i {
+    margin-right: 15px; 
+    width: 20px;
+    height: 15px;
+}
+
+.container .right-content div input {
+    flex: 2; 
+    padding: 3px; 
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+/* Save button */
+.container .right-content .save {
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 10px 12px;
+    font-size: 15px;
+    line-height: 15px;
+    color: black;
+    font-weight: 400;
+    box-sizing: border-box; 
+    cursor: pointer;
+    color: white;
+    background-color: #088178;
+    font-size: 15px;
+    border-radius: 5px;
+    pointer-events: auto;
+    border: none; 
+}
+
+.container .right-content .save:hover
+,.container form input[type="submit"]:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid #088178;
+    
+    
+}
+
+.table {
+    width: 90%;
+    margin-left: 100px;
+}

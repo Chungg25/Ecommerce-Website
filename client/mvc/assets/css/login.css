@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E3E6F3;
+}
+.login,
+.fg {
+    width: 400px;
+    height: 450px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+    border-radius: 20px;
+}
+.login h1 ,
+.fg h1{
+    text-align: center;
+    color: #4c2b99;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+.login form,
+.fg form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.login form label,
+.fg form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 50px;
+    color: #000;
+}
+.addmail p{
+    font-size: 16px;
+    font-weight: 680;
+    margin:5px 15px;
+    text-align: center;
+    
+}
+.login form input[type="password"], .login form input[type="text"] 
+{
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+.fg form input[type="email"]{
+    width: 90%;
+    height: 50px;
+    margin:5px 15px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+.login form input[type="submit"] ,
+.fg form input[type="submit"] {
+    width: 50%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #E3E6F3;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+    border: 1px solid #dee0e4;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover,
+.fg form input[type="submit"]:hover{
+    background-color: #bac2e6;
+    transition: background-color 0.2s;
+}
+
+
+.remember-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.ck {
+    display: flex;
+    align-items: center;
+    margin-right: 115px;
+}
+
+
+.ck input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+.label-text {
+    color: #333;
+}
+
+.forgotPwd a {
+    color: #4c2b99;
+    text-decoration: none;
+}
+
+.forgotPwd a:hover {
+    text-decoration: underline;
+}
+#register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #000;
+    text-decoration: none;
+}
+#register a{
+    color: #4c2b99;
+    text-decoration: none;
+}
+#register:hover a{
+    text-decoration: underline;
+}
+
+p{
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
